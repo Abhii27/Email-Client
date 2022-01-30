@@ -1,0 +1,16 @@
+<div class="header">
+  <div>
+    <h3>{{ email.subject }}</h3>
+    <hr class="ui divider" />
+    <div class="space">
+      <b class="a">From</b>: <i>{{ email.from }}</i>
+    </div>
+    <div>
+      <b class="c">To</b>: <i>{{ email.to }}</i>
+    </div>
+  </div>
+  <div class="ui divider"></div>
+</div>
+<div class="container" [innerHTML]="email.html">
+  {{ email.html }}
+</div>
