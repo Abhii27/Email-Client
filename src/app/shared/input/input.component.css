@@ -1,18 +1,18 @@
 :host {
   display: block;
-  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.field {
+/* .field {
   position: relative;
   width: 100%;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
+} */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .field {
     position: relative;
     width: 80%;
@@ -22,3 +22,4 @@
     transform: translate(-50%, -50%);
   }
 }
+ */

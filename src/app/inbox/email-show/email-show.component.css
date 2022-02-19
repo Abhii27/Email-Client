@@ -1,8 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 i {
   margin-left: 10px;
 }
 
-.space{
+.space {
   margin-bottom: 10px;
 }
 
@@ -13,4 +19,3 @@ i {
 .c {
   margin-right: 28px;
 }
-
